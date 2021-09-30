@@ -1,42 +1,34 @@
+body{
+    background-size: cover;
+}
+
 .heading{
     font-size: 23px;
     width: 100%;
     margin: 0px;
 }
-.note{
-    font-size: 15px;
-    color: black;
+
+#start{
+    font-size: 18px;
 }
-body{
-    background-size: cover;
+
+#status, #found_or_not_found, #start{
+    font-size: 18px;
 }
-.div_speed{
-    float: left;
+
+.copy_right_footer{
+    position: fixed;
+    color: #6c757d;
+    bottom: 0;
+    width: 100%;
+    background-color: #09410e;
+    line-height: 3;
+    text-align: center;
 }
-.div_speed_img{
-    width: 200px;
-    border-radius: 100px;
-}
-#speed{
-    font-size: 23px;
-    margin: 15px;
-}
-.div_volume{
-    float: right;
-}
-.div_volume_img{
-    width: 200px;
-    border-radius: 100px;
-}
-#volume{
-    font-size: 23px;
-    margin: 15px;
-}
-.play_button{
-    width: 130px;
-    font-size: 25px;
-}
+
 canvas{
-    border: 5px solid white;
-    border-radius: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 130px;
+    box-shadow: 5px 5px 5px white;
 }
